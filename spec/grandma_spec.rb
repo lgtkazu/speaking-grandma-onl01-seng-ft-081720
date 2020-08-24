@@ -3,7 +3,6 @@ describe '#speak_to_grandma' do
     expect(speak_to_grandma('I LOVE YOU GRANDMA!')).to eq 'I LOVE YOU TOO PUMPKIN!'
   end
   
-if
   it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
     expect(speak_to_grandma('Hi Nana, how are you?')).to eq 'HUH?! SPEAK UP, SONNY!'
   end
@@ -16,7 +15,6 @@ if
     expect(speak_to_grandma('WHAT DID YOU EAT TODAY?')).to eq "NO, NOT SINCE 1938!"
   end
 
-else
   it 'responds with NO, NOT SINCE 1938! for a second time' do
     expect(speak_to_grandma('WHAT?')).to eq "NO, NOT SINCE 1938!"
   end
